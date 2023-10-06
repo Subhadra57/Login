@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import Home from '../pages/Home';
 
-function Login() {
+function Loginpage() {
 const [username,setUsername]= useState("")
 const [password,setPassword]=useState("")
 const [valid,setValid]=useState(false);
@@ -13,7 +12,6 @@ const [valid,setValid]=useState(false);
 }
 
   return (
-     valid ? <Home />:
      
 
     
@@ -27,8 +25,7 @@ const [valid,setValid]=useState(false);
       </form>
     </div>
   
-  
   )
 }
 
-export default Login
+export default Loginpage
